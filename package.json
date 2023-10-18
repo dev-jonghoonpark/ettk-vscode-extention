@@ -1,8 +1,14 @@
 {
   "name": "ettk",
   "displayName": "ettk",
-  "description": "",
+  "description": "english type to korean",
+  "icon": "assets/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-jonghoonpark/ettk-vscode-extention"
+  },
   "version": "0.0.1",
+  "publisher": "dev-jonghoonpark",
   "engines": {
     "vscode": "^1.83.0"
   },
