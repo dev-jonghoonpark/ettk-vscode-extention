@@ -14,10 +14,26 @@
   "contributes": {
     "commands": [
       {
-        "command": "ettk.helloWorld",
-        "title": "Hello World"
+        "command": "ettk.engTypeToKor",
+        "title": "영어 키보드 입력을 한글로"
+      },
+      {
+        "command": "ettk.korTypeToEng",
+        "title": "한글 키보드 입력을 영어로"
       }
-    ]
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "ettk.engTypeToKor",
+          "when": "editorTextFocus"
+        },
+        {
+          "command": "ettk.korTypeToEng",
+          "when": "editorTextFocus"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "pnpm run compile",
