@@ -1,6 +1,6 @@
 {
-  "name": "etk",
-  "displayName": "etk",
+  "name": "ettk",
+  "displayName": "ettk",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -14,7 +14,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "etk.helloWorld",
+        "command": "ettk.helloWorld",
         "title": "Hello World"
       }
     ]
